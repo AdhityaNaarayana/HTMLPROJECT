@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header{
+  height: 10vh;
+  width: 100%;
+  display:flex;
+  border: 1px solid red;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand{
+  height: 100%;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+
+}
+.brand .logo {
+  height: 100%;
+  width: 50%;
+
+}
+.navbar{
+  height:100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav_link{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar .nav_link li {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 80px;
+  align-items: center;
+}
+.navbar .nav_link li:hover {
+  background-color: grey;
+}
+.navbar .nav_link li:hover a {
+  color: black;
+}
+.navbar .nav_link li a {
+  text-decoration: none;
+  color: white;
+}
+/* Responsive Desgin starts */
+/* For Smaller Screen Size */
+@media only screen and (min-width: 992px){
+
+}
+/* Fo TABLET DEVIVE  */
+@media only screen and (-width: 992px){
+
+}
+
+body{
+  background-image:url(/Images/Lobber.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Fancy stuff starts here */
+
+
+
+
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+  margin-bottom: 300px;
+  margin-right: 800px;
+  border-radius: 25px;
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:600px;
+  
+}
